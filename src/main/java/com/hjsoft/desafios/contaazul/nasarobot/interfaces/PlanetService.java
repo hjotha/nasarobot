@@ -1,5 +1,5 @@
 /**
- * This interface defines the relevant parameters for a Planet
+ * This interface defines the relevant methods for a Planet
  * which is considered an squared terrain.
  *
  * @author hjotha
@@ -21,11 +21,22 @@ public interface PlanetService {
      *
      * @param x position
      * @param y position
+     *
      * @throws InvalidPositionException if x or y are outside the bounds of the planet.
      */
     void putRobot(int x, int y) throws InvalidPositionException;
 
+    /**
+     * The robot's X position on the Planet
+     *
+     * @return X
+     */
     int getRobotPositionX();
 
+    /**
+     * The robot's Y position on the Planet
+     *
+     * @return Y
+     */
     int getRobotPositionY();
 }

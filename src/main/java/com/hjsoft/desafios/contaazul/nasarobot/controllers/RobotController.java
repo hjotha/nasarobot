@@ -1,3 +1,9 @@
+/**
+ * This is the main controller for the robot backend app.
+ *
+ *@author hjotha
+ */
+
 package com.hjsoft.desafios.contaazul.nasarobot.controllers;
 
 import com.hjsoft.desafios.contaazul.nasarobot.interfaces.RobotService;
@@ -8,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created on 1/11/2018.
+ * This controller manages the robot command execution and position.
  */
 @RestController
 public class RobotController {
@@ -16,11 +22,17 @@ public class RobotController {
     @Autowired
     private RobotService robotService;
 
+    /**
+     * This method executes commands and returns robot position.
+     *
+     * @param commands command string
+     * @return Current position for robot in the format: "(x,y,Facing)"
+     */
     @RequestMapping(value = "/rest/mars/{commands}")
-    public @ResponseBody
-    String manage(@PathVariable String commands) {
+    @ResponseBody
+    public String manage(@PathVariable String commands) {
 
-        robotService.sendCommand(commands);
+        robotService.executeCommand(commands);
 
         return robotService.getPosition();
     }
