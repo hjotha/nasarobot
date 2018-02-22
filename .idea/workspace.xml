@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8824809-74a1-4d27-ba9b-7d820ed1c05a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,23 +37,23 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2570#2571#0" expanded="true" />
-                <element signature="e#2599#2600#0" expanded="true" />
-                <element signature="e#2648#2649#0" expanded="true" />
-                <element signature="e#2684#2685#0" expanded="true" />
+                <element signature="e#2484#2485#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+                <element signature="e#2562#2563#0" expanded="true" />
+                <element signature="e#2598#2599#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FailController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -65,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Directions.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Directions.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="e#144#145#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -87,14 +93,14 @@
       <file leaf-file-name="PlanetMarsService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,10 +110,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +134,8 @@
       <file leaf-file-name="RobotController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="148">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="93" lean-forward="false" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="93" />
+              <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,7 +159,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+              <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -197,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" />
       </list>
     </option>
   </component>
@@ -490,6 +496,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -508,7 +515,6 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,54 +584,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,13 +612,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2648#2649#0" expanded="true" />
-            <element signature="e#2684#2685#0" expanded="true" />
+            <element signature="e#2484#2485#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#2562#2563#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -678,7 +657,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="93" lean-forward="false" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="93" />
+          <caret line="9" column="93" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -688,8 +667,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

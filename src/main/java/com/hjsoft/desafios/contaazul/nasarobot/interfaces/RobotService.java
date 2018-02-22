@@ -6,6 +6,7 @@ import com.hjsoft.desafios.contaazul.nasarobot.exceptions.InvalidPositionExcepti
 public interface RobotService {
 
     String getPosition();
+
     void sendCommand(String command) throws InvalidCommandException, InvalidPositionException;
 
 }

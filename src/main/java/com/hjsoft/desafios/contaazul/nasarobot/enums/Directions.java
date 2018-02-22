@@ -1,7 +1,6 @@
 package com.hjsoft.desafios.contaazul.nasarobot.enums;
 
-public enum Directions
-{
+public enum Directions {
     NORTH {
         @Override
         public Directions prev() {

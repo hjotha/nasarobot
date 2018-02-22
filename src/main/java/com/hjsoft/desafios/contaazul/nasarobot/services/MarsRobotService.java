@@ -1,12 +1,12 @@
 package com.hjsoft.desafios.contaazul.nasarobot.services;
 
+import com.hjsoft.desafios.contaazul.nasarobot.enums.Directions;
 import com.hjsoft.desafios.contaazul.nasarobot.exceptions.InvalidCommandException;
 import com.hjsoft.desafios.contaazul.nasarobot.exceptions.InvalidPositionException;
 import com.hjsoft.desafios.contaazul.nasarobot.interfaces.PlanetService;
-import com.hjsoft.desafios.contaazul.nasarobot.enums.Directions;
+import com.hjsoft.desafios.contaazul.nasarobot.interfaces.RobotService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.hjsoft.desafios.contaazul.nasarobot.interfaces.RobotService;
 
 
 @Service
@@ -20,34 +20,31 @@ public class MarsRobotService implements RobotService {
 
     @Override
     public String getPosition() {
-        return  String.format( "(%s, %s, %.1s)\n", planetService.getRobotPositionX(),
-                                                 planetService.getRobotPositionY(), facing.toString() );
+        return String.format("(%s, %s, %.1s)\n", planetService.getRobotPositionX(),
+                planetService.getRobotPositionY(), facing.toString());
     }
 
     @Override
-    public void sendCommand(String command) throws InvalidCommandException, InvalidPositionException
-    {
+    public void sendCommand(String command) throws InvalidCommandException, InvalidPositionException {
         // validate null/empty parameters
-        if ( command == null || command.isEmpty() )
+        if (command == null || command.isEmpty())
             throw new InvalidCommandException();
 
         // Set initial robot position and facing 0 0 N
-        setFacing( Directions.NORTH );
-        planetService.putRobot( 0, 0 );
+        setFacing(Directions.NORTH);
+        planetService.putRobot(0, 0);
 
         // process command
-        for( char c : command.toCharArray() )
-        {
-            switch ( c )
-            {
+        for (char c : command.toCharArray()) {
+            switch (c) {
                 case 'L':
-                    setFacing( getFacing().prev() );
+                    setFacing(getFacing().prev());
                     break;
                 case 'R':
-                    setFacing( getFacing().next() );
+                    setFacing(getFacing().next());
                     break;
                 case 'M':
-                    moveRobot( getFacing() );
+                    moveRobot(getFacing());
                     break;
                 default:
                     throw new InvalidCommandException();
@@ -60,8 +57,7 @@ public class MarsRobotService implements RobotService {
         int robotX = planetService.getRobotPositionX();
         int robotY = planetService.getRobotPositionY();
 
-        switch( facing )
-        {
+        switch (facing) {
             case NORTH:
                 robotY++;
                 break;
@@ -76,7 +72,7 @@ public class MarsRobotService implements RobotService {
                 break;
         }
 
-        planetService.putRobot( robotX, robotY );
+        planetService.putRobot(robotX, robotY);
     }
 
     private Directions getFacing() {
