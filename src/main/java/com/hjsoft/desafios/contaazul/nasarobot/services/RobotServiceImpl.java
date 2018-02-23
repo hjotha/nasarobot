@@ -41,13 +41,6 @@ public class RobotServiceImpl implements RobotService {
     private Robot robot = new Robot(mars);
 
     /**
-     * Construction
-     */
-    public RobotServiceImpl() {
-        robot.setPlanet(mars);
-    }
-
-    /**
      * This method returns the position for the robot.
      *
      * @return Robot position in the format: (x,y,Facing)
