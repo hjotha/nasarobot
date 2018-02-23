@@ -1,6 +1,6 @@
 /**
- *  This controller handles errors.
- *  Returning the desired error format string.
+ * This controller handles errors.
+ * Returning the desired error format string.
  *
  * @author hjotha
  */
@@ -21,7 +21,7 @@ import java.util.Map;
  * Control failures.
  */
 @RestController
-public class FailController extends AbstractErrorController {
+public class ErrorController extends AbstractErrorController {
 
     private static final String ERROR_PATH = "/error";
 
@@ -31,7 +31,7 @@ public class FailController extends AbstractErrorController {
      *  @param errorAttributes Exception attributes
      */
     @Autowired
-    public FailController(ErrorAttributes errorAttributes) {
+    public ErrorController(ErrorAttributes errorAttributes) {
         super(errorAttributes);
     }
 

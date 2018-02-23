@@ -1,7 +1,7 @@
 /**
  * This is the main controller for the robot backend app.
  *
- *@author hjotha
+ * @author hjotha
  */
 
 package com.hjsoft.desafios.contaazul.nasarobot.controllers;
@@ -9,8 +9,7 @@ package com.hjsoft.desafios.contaazul.nasarobot.controllers;
 import com.hjsoft.desafios.contaazul.nasarobot.interfaces.RobotService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -28,8 +27,7 @@ public class RobotController {
      * @param commands command string
      * @return Current position for robot in the format: "(x,y,Facing)"
      */
-    @RequestMapping(value = "/rest/mars/{commands}")
-    @ResponseBody
+    @PostMapping(value = "/rest/mars/{commands}")
     public String manage(@PathVariable String commands) {
 
         robotService.executeCommand(commands);

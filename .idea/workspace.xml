@@ -2,26 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8824809-74a1-4d27-ba9b-7d820ed1c05a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Robot.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/nasarobot.iml" afterPath="$PROJECT_DIR$/nasarobot.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/docs/allclasses-frame.html" afterPath="$PROJECT_DIR$/docs/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/docs/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/Application.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/Application.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/package-frame.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/package-summary.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/package-tree.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/controllers/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/package-frame.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/package-summary.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/package-tree.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/enums/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/package-frame.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/package-summary.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/package-tree.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/exceptions/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/package-frame.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/package-summary.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/package-tree.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/interfaces/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/package-frame.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/package-summary.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/package-tree.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/package-frame.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/package-summary.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/package-tree.html" afterPath="$PROJECT_DIR$/docs/com/hjsoft/desafios/contaazul/nasarobot/services/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/constant-values.html" afterPath="$PROJECT_DIR$/docs/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" afterPath="$PROJECT_DIR$/docs/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" afterPath="$PROJECT_DIR$/docs/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-12.html" afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-13.html" afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-8.html" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-frame.html" afterPath="$PROJECT_DIR$/docs/overview-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-summary.html" afterPath="$PROJECT_DIR$/docs/overview-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" afterPath="$PROJECT_DIR$/docs/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/package-list" afterPath="$PROJECT_DIR$/docs/package-list" />
+      <change beforePath="$PROJECT_DIR$/docs/script.js" afterPath="$PROJECT_DIR$/docs/script.js" />
+      <change beforePath="$PROJECT_DIR$/docs/serialized-form.html" afterPath="$PROJECT_DIR$/docs/serialized-form.html" />
+      <change beforePath="$PROJECT_DIR$/docs/stylesheet.css" afterPath="$PROJECT_DIR$/docs/stylesheet.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/RobotApplication.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/ErrorController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotWalkable.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Planet.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,18 +87,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java">
+      <file leaf-file-name="RobotApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/RobotApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
@@ -63,35 +99,126 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlanetMarsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java">
+      <file leaf-file-name="Planet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Planet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsRobotServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarsRobotService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java">
+      <file leaf-file-name="RobotServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="-675">
+              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding>
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1376#1377#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidCommandException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidPositionException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-455">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotWalkable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotWalkable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -100,8 +227,8 @@
       <file leaf-file-name="RobotController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+            <state relative-caret-position="242">
+              <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -131,22 +258,30 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/shortn0tes/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shortn0tes/controllers/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/ErrorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/NotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/MarsTerrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/MarsRobot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/enums/Directions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/ErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/PlanetMarsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Robot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/RobotApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotWalkable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Planet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java" />
       </list>
     </option>
   </component>
@@ -192,8 +327,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +378,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasarobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasarobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasarobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nasarobot" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nasarobot" type="b2602c69:ProjectViewProjectNode" />
@@ -279,8 +441,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,12 +463,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.hjsoft.desafios.contaazul.nasarobot.services" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hjsoft.desafios.contaazul.nasarobot.model" />
       <recent name="com.hjsoft.desafios.contaazul.nasarobot.exceptions" />
       <recent name="com.hjsoft.desafios.contaazul.nasarobot.controllers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hjsoft.desafios.contaazul.nasarobot.model" />
@@ -333,7 +496,7 @@
     </configuration>
     <configuration name="Application" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.hjsoft.desafios.contaazul.nasarobot.Application" />
+      <option name="MAIN_CLASS_NAME" value="com.hjsoft.desafios.contaazul.nasarobot.RobotApplication" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -359,10 +522,10 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MarsRobotServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RobotServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hjsoft.desafios.contaazul.nasarobot.services.*" />
+          <option name="PATTERN" value="com.hjsoft.desafios.contaazul.nasarobot.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,7 +533,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.hjsoft.desafios.contaazul.nasarobot.services" />
-      <option name="MAIN_CLASS_NAME" value="com.hjsoft.desafios.contaazul.nasarobot.services.MarsRobotServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hjsoft.desafios.contaazul.nasarobot.services.RobotServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -469,44 +632,45 @@
       <updated>1515670319143</updated>
       <workItem from="1519261017959" duration="7864000" />
       <workItem from="1519327989098" duration="810000" />
-      <workItem from="1519330535735" duration="1825000" />
+      <workItem from="1519330535735" duration="1918000" />
+      <workItem from="1519386694760" duration="5340000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 19m 45s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 09h 58m 51s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 31m 16s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 04m 36s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 32m 11s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 05m 25s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 33m 41s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 06m 00s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 33m 47s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 09m 26s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 34m 59s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 10m 56s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 37m 59s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 11m 49s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 39m 04s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 15m 18s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 40m 00s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 18m 02s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRobotServiceTest - 2018.02.22 at 17h 41m 28s.xml">
-      <configuration name="MarsRobotServiceTest" configurationId="JUnit" />
+    <history-entry file="RobotServiceTest - 2018.02.23 at 10h 19m 23s.xml">
+      <configuration name="RobotServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10499000" />
+    <option name="totallyTimeSpent" value="15932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
@@ -529,12 +693,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38196722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33114755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -544,7 +709,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,11 +719,85 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/RobotApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -572,19 +810,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
           <caret line="159" column="36" lean-forward="false" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Planet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -593,15 +841,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -641,54 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/FailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.10.RELEASE/spring-boot-starter-parent-1.5.10.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
           <caret line="159" column="36" lean-forward="false" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/PlanetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,11 +904,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1021">
+          <caret line="71" column="7" lean-forward="false" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2361#2362#0" expanded="false" />
+            <element signature="e#2394#2395#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/RobotApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
@@ -710,47 +945,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        <state relative-caret-position="242">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidCommandException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/controllers/RobotController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/exceptions/InvalidPositionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/PlanetMarsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/interfaces/RobotWalkable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="-81">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/MarsRobotService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Planet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/model/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hjsoft/desafios/contaazul/nasarobot/services/RobotServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

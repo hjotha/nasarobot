@@ -1,6 +1,6 @@
 /**
  * This enum represents the four cardinal direction points:
- *
+ * <p>
  * NORTH, EAST, SOUTH, WEST
  *
  * @author hjotha

@@ -12,9 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Entrypoint
  */
 @SpringBootApplication
-public class Application {
+public class RobotApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(RobotApplication.class, args);
     }
+
 }

@@ -3,30 +3,49 @@
  * facing and movement logic.
  *
  * @author hjotha
- *
  */
 package com.hjsoft.desafios.contaazul.nasarobot.services;
 
 import com.hjsoft.desafios.contaazul.nasarobot.enums.Directions;
 import com.hjsoft.desafios.contaazul.nasarobot.exceptions.InvalidCommandException;
 import com.hjsoft.desafios.contaazul.nasarobot.exceptions.InvalidPositionException;
-import com.hjsoft.desafios.contaazul.nasarobot.interfaces.PlanetService;
 import com.hjsoft.desafios.contaazul.nasarobot.interfaces.RobotService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.hjsoft.desafios.contaazul.nasarobot.model.Planet;
+import com.hjsoft.desafios.contaazul.nasarobot.model.Robot;
 import org.springframework.stereotype.Service;
 
 /**
  * Robot facing and movement logic
  */
 @Service
-public class MarsRobotService implements RobotService {
+public class RobotServiceImpl implements RobotService {
 
-    // init robot with the default facing
-    private Directions facing = Directions.NORTH;
+    /**
+     * max width of mars
+     */
+    private static final int MARS_MAX_WIDTH = 5;
 
-    // dependency auto-injected
-    @Autowired
-    PlanetService planetService;
+    /**
+     * max height of mars
+     */
+    private static final int MARS_MAX_HEIGHT = 5;
+
+    /**
+     * The mars Planet
+     */
+    private Planet mars = new Planet(MARS_MAX_WIDTH, MARS_MAX_HEIGHT);
+
+    /**
+     * The robot
+     */
+    private Robot robot = new Robot(mars);
+
+    /**
+     * Construction
+     */
+    public RobotServiceImpl() {
+        robot.setPlanet(mars);
+    }
 
     /**
      * This method returns the position for the robot.
@@ -35,8 +54,8 @@ public class MarsRobotService implements RobotService {
      */
     @Override
     public String getPosition() {
-        return String.format("(%s, %s, %.1s)\n", planetService.getRobotPositionX(),
-                                                 planetService.getRobotPositionY(), facing.toString());
+        return String.format("(%s, %s, %.1s)\n", robot.getPlanet().getRobotPositionX(),
+                                                 robot.getPlanet().getRobotPositionY(), robot.getFacing().toString());
     }
 
     /**
@@ -54,24 +73,24 @@ public class MarsRobotService implements RobotService {
             throw new InvalidCommandException("Null or empty command string.");
 
         // Set initial robot position and facing 0 0 N
-        setFacing(Directions.NORTH);
-        planetService.putRobot(0, 0);
+        robot.setFacing(Directions.NORTH);
+        robot.getPlanet().putRobot(0, 0);
 
         // process command
         for (char c : command.toCharArray()) {
-            Directions facing = getFacing();
+            Directions facing = robot.getFacing();
             switch (c) {
                 case 'L': // left
-                    setFacing(facing.prev());
+                    robot.setFacing(facing.prev());
                     break;
                 case 'R': // right
-                    setFacing(facing.next());
+                    robot.setFacing(facing.next());
                     break;
                 case 'M': // move
                     moveRobot(facing);
                     break;
                 default: // err
-                    throw new InvalidCommandException("Invalid character: "+c);
+                    throw new InvalidCommandException("Invalid character: " + c);
             }
         }
     }
@@ -85,8 +104,8 @@ public class MarsRobotService implements RobotService {
     private void moveRobot(Directions facing) throws InvalidPositionException {
 
         // gets robot X and Y
-        int robotX = planetService.getRobotPositionX();
-        int robotY = planetService.getRobotPositionY();
+        int robotX = robot.getPlanet().getRobotPositionX();
+        int robotY = robot.getPlanet().getRobotPositionY();
 
         // according to current robot facing set positions
         switch (facing) {
@@ -105,24 +124,6 @@ public class MarsRobotService implements RobotService {
         }
 
         // move robot
-        planetService.putRobot(robotX, robotY);
-    }
-
-    /**
-     *  Gets the current facing.
-     *
-     * @return enum with current facing.
-     */
-    private Directions getFacing() {
-        return facing;
-    }
-
-    /**
-     * Sets the current facing.
-     *
-     * @param facing enum with facing.
-     */
-    private void setFacing(Directions facing) {
-        this.facing = facing;
+        robot.getPlanet().putRobot(robotX, robotY);
     }
 }

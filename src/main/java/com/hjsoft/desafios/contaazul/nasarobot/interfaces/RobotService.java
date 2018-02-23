@@ -14,12 +14,12 @@ import com.hjsoft.desafios.contaazul.nasarobot.exceptions.InvalidPositionExcepti
  * Implementing this interface allows a robot to get its position on a planet
  * and execute commands.
  *
- * @see PlanetService
+ * @see RobotWalkable
  */
 public interface RobotService {
 
     /**
-     * Retrieves an String that representes the position for a Robot
+     * Retrieves an String that represents the position for a Robot
      * with the format: "(x, y, Facing)"
      *
      * @return String with position.
@@ -28,14 +28,13 @@ public interface RobotService {
 
     /**
      * Executes a list of commands, the commands can be:
-     *
+     * <p>
      * L - Move robot facing to left
      * R - Move robot facing to right
      * M - Move robot forward (to the direction of the facing)
      *
      * @param command The string with the commands
-     *
-     * @throws InvalidCommandException If unknown characters are sent in the string.
+     * @throws InvalidCommandException  If unknown characters are sent in the string.
      * @throws InvalidPositionException If robot is instructed to move outside bounds.
      */
     void executeCommand(String command) throws InvalidCommandException, InvalidPositionException;
