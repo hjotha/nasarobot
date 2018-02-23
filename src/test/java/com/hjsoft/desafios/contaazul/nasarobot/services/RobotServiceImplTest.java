@@ -13,12 +13,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Tests for RobotService
+ * Tests for RobotServiceImpl
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(RobotServiceImpl.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class RobotServiceTest {
+public class RobotServiceImplTest {
 
     @Autowired
     RobotServiceImpl robotService;
