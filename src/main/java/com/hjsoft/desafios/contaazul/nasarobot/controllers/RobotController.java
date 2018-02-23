@@ -10,6 +10,7 @@ import com.hjsoft.desafios.contaazul.nasarobot.interfaces.RobotService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -27,7 +28,9 @@ public class RobotController {
      * @param commands command string
      * @return Current position for robot in the format: "(x,y,Facing)"
      */
-    @PostMapping(value = "/rest/mars/{commands}")
+    //@PostMapping(value = "/rest/mars/{commands}")
+    // So we can test in browser too
+    @RequestMapping(value = "/rest/mars/{commands}")
     public String manage(@PathVariable String commands) {
 
         robotService.executeCommand(commands);
