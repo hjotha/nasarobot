@@ -43,16 +43,20 @@ public class RobotServiceTest {
         robotService.executeCommand("MMMMMMMMMMMMMMMM");
     }
 
+    @Test(expected = InvalidPositionException.class)
+    public void test5_executeCommandInvalidTurnTest() {
+        robotService.executeCommand("LM");
+    }
+
     @Test
-    public void test5_executeCommandValidTest() {
+    public void test6_executeCommandValidTest() {
         robotService.executeCommand("MMRMMRMM");
         assertEquals("(2, 0, S)\n", robotService.getPosition());
     }
 
     @Test
-    public void test6_executeCommandValidTest() {
+    public void test7_executeCommandValidTest() {
         robotService.executeCommand("MML");
         assertEquals("(0, 2, W)\n", robotService.getPosition());
     }
-
 }
